@@ -1,0 +1,38 @@
+{
+    "sala": [
+      "salon",
+      "cocina",
+      "dormitorio",
+      "baño",
+      "sala de estar",
+      "comedor",
+      "pasillo",
+      "garaje",
+      "terraza",
+      "jardin",
+      "estudio",
+      "balcon",
+      "despacho",
+      "cuarto de juegos",
+      "habitacion de invitados"
+    ],
+    "dispositivo": [
+      "nevera",
+      "microondas",
+      "lavadora",
+      "televisor",
+      "ordenador",
+      "cafetera",
+      "router",
+      "altavoz",
+      "ventilador",
+      "lampara",
+      "cargador",
+      "humidificador",
+      "calefactor",
+      "aspirador",
+      "equipo de musica",
+      "estufa",
+      "termo"
+    ]
+}

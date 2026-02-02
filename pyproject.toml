@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "homelai_rpi"
+version = "0.1.0"
+description = "Home Assistant package for RPi."
+readme = "README.md"
+requires-python = "==3.10.*"
+dependencies = [
+    "vosk==0.3.45",
+    "paho-mqtt==2.1.0",
+    "numpy==1.23.5",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
