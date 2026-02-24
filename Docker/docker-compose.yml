@@ -1,0 +1,12 @@
+services:
+  homelai:
+    build:
+      context: ../
+      dockerfile: ./Docker/Dockerfile
+    container_name: homelai_container
+    image: homelai:latest
+    volumes:
+      - ../:/SHS/  # Mount the entire homelai package
+    working_dir: /SHS
+    network_mode: "host"
+    tty: true
