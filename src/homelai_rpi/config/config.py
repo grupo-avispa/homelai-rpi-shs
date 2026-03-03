@@ -13,7 +13,8 @@ logger = logging.getLogger(__name__)
 
 def load_keyword():
     """Load the wake word from the keyword.json file."""
-    keyword_path = Config.KEYWORD_PATH
+    _package_path = Path(__file__).parent.parent.parent.parent
+    keyword_path = os.path.join(_package_path, "config/keyword.json")
     try:
         with open(keyword_path, "r", encoding="utf8") as f:
             data = json.load(f)
@@ -33,7 +34,7 @@ class Config:
     VALID_INTENTS_PATH: str = os.path.join(_package_path, "config/valid_intents.json")
     NLU_URL: str = "http://localhost:8000/predict"
 
-    MQTT_BROKER: str = "homelai-pi.local"
+    MQTT_BROKER: str = "localhost"
     MQTT_PORT: int = 1883
     MQTT_KEEPALIVE: int = 60
     MQTT_AUDIO_TOPIC: str = "esp32/audio/#"
