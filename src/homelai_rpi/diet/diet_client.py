@@ -95,7 +95,8 @@ class DIETClient:
         if not entity:
             return False
         return (entity in self.valid_entities.get("sala", []) or 
-                entity in self.valid_entities.get("dispositivo", []))
+                entity in self.valid_entities.get("dispositivo", []) or 
+                entity in self.valid_entities.get("modo", []))
     
     def is_room_intent(self, intent: str) -> bool:
         """Check if intent requires room information."""

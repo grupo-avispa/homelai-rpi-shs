@@ -157,5 +157,55 @@
   "{keyword} para la persiana del balcon",
   "{keyword} para la persiana del despacho",
   "{keyword} para la persiana del cuarto de juegos",
-  "{keyword} para la persiana de la habitacion de invitados"
+  "{keyword} para la persiana de la habitacion de invitados",
+
+  "{keyword} activa el modo noche",
+  "{keyword} activa el modo dia",
+  "{keyword} activa el modo vacaciones",
+  "{keyword} activa el modo trabajo",
+  "{keyword} activa el modo fiesta",
+  "{keyword} activa el modo relax",
+  "{keyword} activa el modo lectura",
+  "{keyword} activa el modo romantico",
+  "{keyword} activa el modo deporte",
+  "{keyword} activa el modo estudio",
+  "{keyword} activa el modo cine",
+  "{keyword} activa el modo musica",
+
+  "{keyword} pon el modo noche",
+  "{keyword} pon el modo relax",
+  "{keyword} pon el modo cine",
+  "{keyword} pon el modo fiesta",
+  "{keyword} pon el modo lectura",
+  "{keyword} pon el modo trabajo",
+
+  "{keyword} por favor activa el modo noche",
+  "{keyword} por favor activa el modo cine",
+  "{keyword} por favor activa el modo vacaciones",
+  "{keyword} por favor pon el modo relax",
+
+  "{keyword} desactiva el modo noche",
+  "{keyword} desactiva el modo dia",
+  "{keyword} desactiva el modo vacaciones",
+  "{keyword} desactiva el modo trabajo",
+  "{keyword} desactiva el modo fiesta",
+  "{keyword} desactiva el modo relax",
+  "{keyword} desactiva el modo lectura",
+  "{keyword} desactiva el modo romantico",
+  "{keyword} desactiva el modo deporte",
+  "{keyword} desactiva el modo estudio",
+  "{keyword} desactiva el modo cine",
+
+  "{keyword} quita el modo noche",
+  "{keyword} quita el modo relax",
+  "{keyword} quita el modo cine",
+  "{keyword} quita el modo fiesta",
+  "{keyword} quita el modo lectura",
+  "{keyword} quita el modo trabajo",
+
+  "{keyword} sal del modo noche",
+  "{keyword} sal del modo cine",
+
+  "{keyword} por favor desactiva el modo noche",
+  "{keyword} por favor quita el modo relax"
 ]

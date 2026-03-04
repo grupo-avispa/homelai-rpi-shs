@@ -10,9 +10,16 @@
 
     "parar_persiana"
     ],
+
     "dispositivo": [
         "activar_enchufe",
         
         "apagar_enchufe"
+    ],
+
+    "modo": [
+        "activar_modo",
+        
+        "desactivar_modo"
     ]
 }

@@ -34,5 +34,13 @@
       "equipo de musica",
       "estufa",
       "termo"
+    ],
+    "modo": [
+      "noche",
+      "cine",
+      "trabajo",
+      "relax",
+      "romantico",
+      "fiesta"
     ]
 }
